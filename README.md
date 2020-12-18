@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-  Projeto elaborado para teste de vaga..
+  Projeto elaborado para teste da vaga..
 </h3>
 
 <blockquote align="center">“Querer vencer significa já ter percorrido metade do caminho.”</blockquote>
