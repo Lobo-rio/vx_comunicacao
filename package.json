@@ -1,0 +1,19 @@
+{
+  "name": "vx_comunicacao",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de um layout da landing, para teste da vaga de Front-End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lobo-rio/vx_comunicacao.git"
+  },
+  "author": "Gilberto Medeiros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lobo-rio/vx_comunicacao/issues"
+  },
+  "homepage": "https://github.com/Lobo-rio/vx_comunicacao#readme"
+}

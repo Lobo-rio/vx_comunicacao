@@ -1,0 +1,511 @@
+    @media (min-width: 576px) {
+        section#donec-portt p {
+            font-size: 14px;
+        }
+        section#donec-portt p.destac {
+            font-size: 14px;
+        }
+        section#donec-portt .video-donec iframe {
+            height: 260px;
+        }
+        section#pellentesque .pellentesque-two {
+            width: 100%;
+            height: auto;
+            margin-right: 10px;
+        }
+        section#pellentesque .pellentesque-two .image-one {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        section#pellentesque .pellentesque-two .image-one img {
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+        }
+        section#pellentesque .pellentesque-two .image-two {
+            width: 100%;
+            height: 70%
+        }
+        section#pellentesque .pellentesque-two .image-two img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+        }
+        section#pellentesque .pellentesque-one {
+            width: 100%;
+            height: auto;
+        }
+        section#pellentesque .pellentesque-one .image-one {
+            margin-top: 16px;
+        }
+        section#pellentesque .pellentesque-one .image-one img {
+            width: 100%;
+            height: 80%;
+            object-fit: cover;
+        }
+        section#consectetur h5 {
+            font-size: 14px;
+        }
+        section#consectetur p {
+            font-size: 14px;
+        }
+        section#cards .card .card-body p {
+            font-size: 14px;
+        }
+        section#cards .card .card-footer button {
+            font-size: 13px;
+        }
+        section#cards .card .card-footer button span {
+            font-size: 14px;
+        }
+    }
+    
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        header {
+            height: 490px;
+        }
+        .container {
+            width: 80%;
+        }
+        header .navbar .logo div.img {
+            width: 56px;
+            height: 56px;
+        }
+        header .navbar .logo p {
+            font-size: 34px;
+        }
+        header .menu-navbar ul {
+            display: flex;
+            align-items: center;
+        }
+        header .menu-navbar ul li {
+            margin-right: 12px;
+        }
+        header .menu-navbar ul li a {
+            font-size: 12px;
+            font-weight: 500;
+            color: $white;
+        }
+        header .menu-navbar ul li a.active {
+            color: $orange;
+        }
+        header .jumbotron h1 {
+            font-size: 66px;
+        }
+        header .jumbotron h2 {
+            font-size: 48px;
+        }
+        header .jumbotron h3 {
+            font-size: 48px;
+        }
+        header .countdown {
+            width: 224px;
+        }
+        header .launch p {
+            font-size: 16px;
+        }
+        section#donec-portt .container {
+            margin-top: 46px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "video text";
+            column-gap: 16px;
+        }
+        section#donec-portt .text-donec {
+            grid-area: text;
+            width: 100%;
+            padding: 0;
+        }
+        section#donec-portt .video-donec {
+            grid-area: video;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section#donec-portt .video-donec iframe {
+            width: 260px;
+            height: 160px;
+            border-radius: 8px;
+        }
+        section#donec-portt .text-donec {
+            padding: 32px;
+        }
+        section#donec-portt .text-donex h2 {
+            font-size: 14px;
+        }
+        section#donec-portt .text-donec p,
+        section#donec-portt .text-donec p.destac {
+            font-size: 12px;
+        }
+        section#mauri .mauri-blue-ligth {
+            text-align: center;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%
+        }
+        section#mauri .mauri-blue-ligth h2 {
+            font-style: 40px;
+            margin: 60px 0 30px 0;
+        }
+        section#mauri .mauri-blue-ligth .information-destac {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section#mauri .sed-elementu,
+        section#mauri .pellentesque,
+        section#mauri .maecenas,
+        section#mauri .vestibulum {
+            margin: 0 25px 60px 0;
+        }
+        section#mauri .vestibulum {
+            margin-right: 0;
+        }
+        section#consectetur {
+            margin-top: 46px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "image text";
+            column-gap: 16px;
+        }
+        section#consectetur .text-consectetur {
+            grid-area: text;
+            padding: 20px;
+        }
+        section#consectetur .text-consectetur h2 {
+            font-size: 22px;
+        }
+        section#consectetur .text-consectetur h5 {
+            font-size: 12px;
+        }
+        section#consectetur .text-consectetur p {
+            font-size: 12px;
+        }
+        section#consectetur .image-consectetur {
+            grid-area: image;
+        }
+        section#cards {
+            height: 320px;
+        }
+        section#cards .container {
+            display: flex;
+            align-items: center;
+        }
+        section#cards .card {
+            width: 288px;
+        }
+        section#cards .card:nth-child(1) {
+            margin-bottom: 0;
+        }
+        section#contacts {
+            height: 510px;
+        }
+        section#contacts .contacts-title {
+            opacity: 0;
+            padding: 0;
+            margin-bottom: 0;
+        }
+        section#contacts .address {
+            margin-top: 46px;
+            height: 374px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "maps information";
+        }
+        section#contacts .address .maps {
+            grid-area: maps;
+            border-bottom-right-radius: 0;
+        }
+        section#contacts .address .information {
+            grid-area: information;
+        }
+        section#contacts .address .maps .position {
+            top: 0;
+            left: 276px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 60px;
+        }
+        section#contacts .address .title p {
+            font-size: 16px;
+            margin: 0 0 20px 36px;
+        }
+        section#contacts .address ul {
+            margin: 0 0 40px 36px;
+        }
+        section#contacts .address ul li {
+            font-size: 12px;
+        }
+        footer .bottom .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        footer .bottom img {
+            display: flex;
+        }
+    }
+    
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+        header {
+            height: 640px;
+        }
+        .container {
+            width: 80%;
+        }
+        header .navbar .logo div.img {
+            width: 56px;
+            height: 56px;
+        }
+        header .navbar .logo p {
+            font-size: 34px;
+        }
+        header .navbar .menu-icons {
+            margin-top: -230px;
+        }
+        header .menu-navbar {
+            margin-top: 0;
+        }
+        header .menu-navbar ul {
+            display: flex;
+            align-items: center;
+        }
+        header .menu-navbar ul li {
+            margin-right: 12px;
+        }
+        header .menu-navbar ul li a {
+            font-size: 12px;
+            font-weight: 500;
+            color: $white;
+        }
+        header .menu-navbar ul li a.active {
+            color: $orange;
+        }
+        header .jumbotron h1 {
+            font-size: 107px;
+        }
+        header .jumbotron h2 {
+            font-size: 67px;
+        }
+        header .jumbotron h3 {
+            font-size: 67px;
+        }
+        header .countdown {
+            width: 360px;
+        }
+        section#donec-portt .container {
+            margin-top: 46px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "video text";
+            column-gap: 16px;
+        }
+        section#donec-portt .text-donec {
+            grid-area: text;
+            width: 100%;
+            padding: 0;
+        }
+        section#donec-portt .video-donec {
+            grid-area: video;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section#donec-portt .video-donec iframe {
+            width: 440px;
+            height: 280px;
+            border-radius: 8px;
+        }
+        section#donec-portt .text-donec {
+            padding: 32px;
+        }
+        section#donec-portt .text-donex h2 {
+            font-size: 24px;
+        }
+        section#donec-portt .text-donec p,
+        section#donec-portt .text-donec p.destac {
+            font-size: 18px;
+        }
+        section#mauri .mauri-blue-ligth {
+            text-align: center;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%
+        }
+        section#mauri .mauri-blue-ligth h2 {
+            font-style: 40px;
+            margin: 60px 0 30px 0;
+        }
+        section#mauri .mauri-blue-ligth .information-destac {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section#mauri .sed-elementu,
+        section#mauri .pellentesque,
+        section#mauri .maecenas,
+        section#mauri .vestibulum {
+            margin: 0 25px 60px 0;
+        }
+        section#mauri .vestibulum {
+            margin-right: 0;
+        }
+        section#pellentesque .container {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "one two";
+            column-gap: 10px;
+        }
+        section#pellentesque .images-one {
+            grid-area: one;
+            width: 90%;
+            height: auto;
+            margin: 60px auto;
+            display: flex;
+        }
+        section#pellentesque .images-two {
+            grid-area: two;
+            width: 90%;
+            height: auto;
+            margin: 60px auto;
+            display: flex;
+        }
+        section#pellentesque .pellentesque-two .image-one {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        section#pellentesque .pellentesque-two .image-one img {
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+        }
+        section#pellentesque .pellentesque-two .image-two {
+            width: 100%;
+            height: 70%
+        }
+        section#pellentesque .pellentesque-two .image-two img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+        }
+        section#pellentesque .pellentesque-one {
+            width: 100%;
+            height: auto;
+        }
+        section#pellentesque .pellentesque-one .image-one {
+            margin-top: 16px;
+        }
+        section#pellentesque .pellentesque-one .image-one img {
+            width: 100%;
+            height: 80%;
+            object-fit: cover;
+        }
+        section#consectetur {
+            margin-top: 46px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "image text";
+            column-gap: 16px;
+        }
+        section#consectetur .text-consectetur {
+            grid-area: text;
+            padding: 20px;
+        }
+        section#consectetur .text-consectetur h2 {
+            font-size: 28px;
+        }
+        section#consectetur .text-consectetur h5 {
+            font-size: 14px;
+        }
+        section#consectetur .text-consectetur p {
+            font-size: 11px;
+        }
+        section#consectetur .image-consectetur {
+            grid-area: image;
+        }
+        section#cards {
+            height: 320px;
+        }
+        section#cards .container {
+            display: flex;
+            align-items: center;
+        }
+        section#cards .card {
+            width: 380px;
+        }
+        section#cards .card:nth-child(1) {
+            margin-bottom: 0;
+        }
+        section#contacts {
+            height: 510px;
+        }
+        section#contacts .contacts-title {
+            opacity: 0;
+            padding: 0;
+            margin-bottom: 0;
+        }
+        section#contacts .address {
+            margin-top: 46px;
+            height: 374px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "maps information";
+        }
+        section#contacts .address .maps {
+            grid-area: maps;
+            border-bottom-right-radius: 0;
+        }
+        section#contacts .address .information {
+            grid-area: information;
+        }
+        section#contacts .address .maps .position {
+            top: 0;
+            left: 357px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 60px;
+        }
+        section#contacts .address .title p {
+            font-size: 16px;
+            margin: 0 0 20px 36px;
+        }
+        section#contacts .address ul {
+            margin: 0 0 40px 36px;
+        }
+        section#contacts .address ul li {
+            font-size: 12px;
+        }
+        section#caroseul .itens .itens_company:nth-child(3),
+        section#caroseul .itens .itens_company:nth-child(4),
+        section#caroseul .itens .itens_company:nth-child(5),
+        section#caroseul .itens .itens_company:nth-child(6) {
+            display: flex;
+        }
+        footer .bottom .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+        section#cards .card {
+            width: 460px;
+        }
+        section#contacts .address .maps .position {
+            left: 432px;
+        }
+    }
+    
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) {
+        section#cards .card {
+            width: 510px;
+        }
+        section#contacts .address .maps .position {
+            left: 504px;
+        }
+    }

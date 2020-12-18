@@ -1,0 +1,172 @@
+header {
+    width: 100%;
+    height: 540px;
+    background-image: url('../images/background.png');
+    padding-top: 20px;
+    position: relative;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .navbar .logo div.img {
+    width: 42px;
+    height: 42px;
+    background-color: $orange;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+header .navbar .logo p {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+    color: $orange;
+}
+
+header .menu-navbar {
+    margin-top: -300px;
+}
+
+header .navbar .menu-icons {
+    cursor: pointer;
+}
+
+header .navbar .menu-icons span {
+    font-size: 42px;
+    color: $white;
+}
+
+header .jumbotron {
+    text-align: center;
+    margin-top: 26px;
+}
+
+header .jumbotron h1 {
+    font-size: 44px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: $orange;
+}
+
+header .jumbotron h2 {
+    font-size: 42px;
+    font-family: 'Anton', sans-serif;
+    line-height: 52px;
+    color: $white;
+    strong {
+        color: $orange;
+    }
+}
+
+header .jumbotron h3 {
+    font-size: 38px;
+    font-family: 'Anton', sans-serif;
+    line-height: 46px;
+    color: $white;
+}
+
+header .countdown {
+    width: 75%;
+    height: auto;
+    margin: 36px auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid $white;
+}
+
+header .countdown .days,
+header .countdown .hours,
+header .countdown .minutes,
+header .countdown .seconds {
+    text-align: center;
+}
+
+header .countdown .days p:nth-child(1),
+header .countdown .hours p:nth-child(1),
+header .countdown .minutes p:nth-child(1),
+header .countdown .seconds p:nth-child(1) {
+    font-size: 29px;
+    font-weight: 700;
+    color: $white;
+    margin-right: 10px;
+}
+
+header .countdown .days p:nth-child(2),
+header .countdown .hours p:nth-child(2),
+header .countdown .minutes p:nth-child(2),
+header .countdown .seconds p:nth-child(2) {
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $white;
+    margin-right: 10px;
+}
+
+header .countdown .seconds p:nth-child(1),
+header .countdown .seconds p:nth-child(2) {
+    margin-right: 0;
+}
+
+header .launch {
+    text-align: center;
+}
+
+header .launch p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: $white;
+    span {
+        color: $orange;
+    }
+}
+
+.links-mobile {
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    background-color: black;
+    top: 72px;
+    left: 0;
+    transition: all ease-in-out 2ms;
+}
+
+.links-mobile .options-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-mobile .options-menu ul li {
+    padding: 18px;
+}
+
+.links-mobile .options-menu ul li a {
+    font-size: 14px;
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.links-mobile .options-menu ul li:hover a {
+    background-color: $white;
+    color: $orange;
+}

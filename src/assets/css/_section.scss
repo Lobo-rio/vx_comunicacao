@@ -1,0 +1,190 @@
+section#donec-portt .text-donec {
+    padding: 36px;
+}
+
+section#donec-portt h2 {
+    font-size: 23px;
+    font-weight: 300;
+    color: $blue_ligth;
+    margin-bottom: 26px;
+    span {
+        font-weight: 700;
+        color: $blue_bold;
+    }
+}
+
+section#donec-portt p {
+    font-size: 11px;
+    font-weight: 300;
+    color: $blue_ligth
+}
+
+section#donec-portt p.destac {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14px;
+    color: $blue_ligth;
+}
+
+section#donec-portt .video-donec {
+    padding: 0 10px;
+}
+
+section#donec-portt .video-donec iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section#mauri .mauri-blue-bold {
+    width: 100%;
+    height: auto;
+    margin-top: 26px;
+    background-color: $blue_bold;
+}
+
+section#mauri .mauri-blue-ligth {
+    width: 100%;
+    height: auto;
+    padding: 36px 0;
+    background-color: $blue_ligth;
+    border-top-left-radius: 100%;
+}
+
+section#mauri h2 {
+    font-size: 23px;
+    font-weight: 300;
+    color: $white;
+    margin: 0 36px;
+    span {
+        font-weight: 700;
+    }
+}
+
+section#mauri .sed-elementu,
+section#mauri .pellentesque,
+section#mauri .maecenas,
+section#mauri .vestibulum {
+    text-align: center;
+    margin-top: 36px;
+}
+
+section#mauri .sed-elementu h3,
+section#mauri .pellentesque h3,
+section#mauri .maecenas h3,
+section#mauri .vestibulum h3 {
+    font-size: 37px;
+    font-weight: 700;
+    color: $white;
+}
+
+section#mauri .sed-elementu p,
+section#mauri .pellentesque p,
+section#mauri .maecenas p,
+section#mauri .vestibulum p {
+    font-size: 14px;
+    font-weight: 300;
+    color: $blue_sligth;
+}
+
+section#pellentesque .container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "one";
+}
+
+section#pellentesque .images-one {
+    grid-area: one;
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+    display: flex;
+}
+
+section#pellentesque .images-two {
+    display: none;
+}
+
+section#pellentesque .pellentesque-two {
+    width: 100%;
+    margin-right: 10px;
+}
+
+section#pellentesque .pellentesque-two .image-one img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+section#pellentesque .pellentesque-two .image-two {
+    width: 100%;
+}
+
+section#pellentesque .pellentesque-two .image-two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section#pellentesque .pellentesque-one {
+    width: 100%;
+    height: auto;
+}
+
+section#pellentesque .pellentesque-one .image-one {
+    margin-top: 16px;
+}
+
+section#pellentesque .pellentesque-one .image-one img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+section#consectetur {
+    width: 100%;
+    height: auto;
+    background-color: #f5eeee;
+}
+
+section#consectetur h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: $blue_bold;
+    text-transform: uppercase;
+    padding: 36px 0 16px 36px;
+}
+
+section#consectetur h5 {
+    font-size: 10px;
+    font-weight: 700;
+    color: $blue_bold;
+    padding: 0 36px;
+}
+
+section#consectetur p {
+    font-size: 10px;
+    font-weight: 300;
+    color: $blue_ligth;
+    padding: 10px 36px;
+    span {
+        font-weight: 700;
+        color: $blue_bold;
+    }
+}
+
+section#consectetur .image-consectetur {
+    width: auto;
+    height: 460px;
+    background-color: cadetblue;
+    transition: all ease-in-out 2ms;
+}
+
+section#consectetur .image-consectetur img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}

@@ -1,0 +1,86 @@
+section#contacts {
+    width: 100%;
+    height: 720px;
+    background-color: $blue_darck;
+}
+
+section#contacts .contacts-title {
+    text-align: center;
+    padding: 106px 0 0 0;
+}
+
+section#contacts .contacts-title h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: $white;
+    margin-bottom: 36px;
+}
+
+section#contacts .address {
+    width: 90%;
+    height: 526px;
+    margin: 0 auto;
+    background-color: $orange;
+    border-bottom-right-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#contacts .address .maps {
+    width: 100%;
+    height: 374px;
+    background-color: #ddd;
+    border-bottom-right-radius: 28%;
+    position: relative;
+}
+
+section#contacts .address .maps .position {
+    width: 240px;
+    height: 80px;
+    background-color: $blue_darck;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top-right-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#contacts .address .maps .position p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    color: $orange;
+}
+
+section#contacts .address .maps iframe {
+    width: 100%;
+    height: 374px;
+    border-bottom-right-radius: 28%;
+}
+
+section#contacts .address .title p {
+    max-width: 70%;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $blue_darck;
+    margin: 0 0 20px 16px;
+}
+
+section#contacts .address ul {
+    margin: 0 0 40px 16px;
+}
+
+section#contacts .address ul li {
+    font-size: 10px;
+    font-weight: 300;
+    color: $blue_darck;
+    text-transform: uppercase;
+    list-style-type: circle;
+    margin-left: 16px;
+}
